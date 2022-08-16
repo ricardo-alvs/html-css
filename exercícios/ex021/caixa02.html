@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #9C8B6B;
+            margin: 0px;
+        }
+
+        header{
+            
+            background-color: #E8CC95;
+            padding: 10px;
+            margin: 10px;
+        }
+       
+        nav{
+           background-color: aqua;
+           color: rgb(182, 20, 20);
+           box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+        }
+ 
+        nav > a{
+            text-decoration: underline;
+            margin-right: 30px;
+            
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px 30px 40px;
+        }
+
+        article{
+            background-color: #9C9E83;
+            padding: 5px;
+        }
+
+        article > aside{
+             background-color: #9C8B6B;
+        }
+
+        footer{
+            background-color: darkorchid;
+            text-align: center;
+            padding: 5px;
+        }
+
+        div#bola{
+            height: 100px ;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Meu Site</h1>
+       <nav>
+           <a href="">link</a>
+           <a href="">link</a>
+           <a href="">link</a>
+           <a href="">link</a>
+           <a href="">link</a>
+       </nav>
+    </header>
+
+    <main>
+       <section id="assuntos">
+          <p>Esportes Política Tecnologia</p>
+       </section>
+
+       <article id="noticias">
+           <h2>Notícias Sobre o Brasil</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eum nihil molestias culpa, sapiente quibusdam nemo aspernatur ex ad? Vel maxime tempora similique impedit corporis culpa porro repellendus cupiditate eveniet.</p>
+         <aside>
+             <p>Artigo escrito por</p>
+         </aside>
+       </article>
+       <article>
+
+       </article>
+    </main>
+
+    <footer>
+       <p>Desenvolvido pelo Curso em Vídeo</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>
